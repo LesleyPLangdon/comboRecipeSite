@@ -1,0 +1,12 @@
+{
+  "thyme2cook": {
+    "name": "Thyme 2 Cook",
+    "theme": "thyme2cook.css",
+    "purpose": "Recipes designed for couples and small households who want real meals without excessive leftovers."
+  },
+  "stuffit": {
+    "name": "Stuff It",
+    "theme": "stuffit.css",
+    "purpose": "An eclectic celebration of stuffed foods from cultures around the world."
+  }
+}

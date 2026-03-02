@@ -1,0 +1,41 @@
+{
+  "meatloaf": {
+    "title": "Classic Meatloaf for Two",
+    "site": "thyme2cook",
+    "cuisine": "American",
+    "tags": ["beef", "comfort"],
+    "prepTime": "15 mins",
+    "cookTime": "45 mins",
+    "servings": "2",
+    "ingredients": [
+      "1 lb ground beef",
+      "1 egg",
+      "1/2 cup breadcrumbs"
+    ],
+    "instructions": [
+      "Preheat oven to 350°F.",
+      "Mix ingredients together.",
+      "Bake for 45 minutes."
+    ]
+  },
+  "empanadas": {
+    "title": "Beef Empanadas",
+    "site": "stuffit",
+    "cuisine": "Latin",
+    "tags": ["beef", "stuffed"],
+    "prepTime": "25 mins",
+    "cookTime": "30 mins",
+    "servings": "4",
+    "ingredients": [
+      "Empanada dough",
+      "Ground beef",
+      "Onion",
+      "Spices"
+    ],
+    "instructions": [
+      "Prepare filling.",
+      "Fill dough.",
+      "Bake until golden."
+    ]
+  }
+}

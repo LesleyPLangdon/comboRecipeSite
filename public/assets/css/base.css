@@ -72,6 +72,7 @@ a:hover {
   background-color: var(--color-header-bg);
   padding: 1.5rem 2rem;
   border-bottom: 3px solid var(--color-accent);
+  width: 100%;
 }
 
 .site-header h1 {
@@ -85,32 +86,61 @@ a:hover {
   background-color: var(--color-footer-bg);
   font-size: 0.9rem;
 }
+/* ================================
+   HERO SECTION
+================================ */
+
+
+
 .hero {
-  width: 100%;
-  height: 75vh; /* 75% of viewport height */
-  min-height: 500px;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  position: relative;
+    width: 100%;
+    height: 30vh;          /* 30% of viewport height */
+    min-height: 250px;     /* Prevents it from being too small */
+    max-height: 400px;     /* Prevents giant monitors from stretching too tall */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
 }
 
+/* Slight dark overlay for readability */
 .hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.4); /* overlay */
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.25);
 }
 
-.hero-content {
-  position: relative;
-  color: white;
-  z-index: 2;
+/* Top bar layout */
+.hero-top-bar {
+    width: 100%;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 2;
 }
 
+/* Logo */
+.site-logo {
+    height: 60px;
+    width: auto;
+}
+
+/* Header links */
+.header-links a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.header-links a:hover {
+    opacity: 0.8;
+}
 /* ============================= */
 /* SIDEBARS                      */
 /* ============================= */
